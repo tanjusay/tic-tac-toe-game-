@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+  background-color :#f1f1f1 ;
+  color :#616161 ;
+ /*   font-family: 'Press Start 2P', */ 
+  font-family: 'Outfit', sans-serif;
+}
+#cellContainer{
+  display :grid ;
+  grid-template-columns :repeat(3, auto);
+  width :240px ;
+  margin :30px auto  ;
+  line-height :80px ;
+  font-size :35px ;
+  border-radius :5px ;
+  padding :5px ;
+  padding-right :7px ;
+  box-shadow :-3px -3px 4px 2px #fff,
+  3px 3px 4px 1px #cbcbcb ;
+}
+.cell{
+  width :80px;
+  height :80px;
+  border :.1px solid silver;
+  font-weight : 800;
+  cursor :pointer ; 
+  z-index :0;
+}
+#gameContainer{
+  text-align :center ;
+
+}
+#gameContainer h3{
+  margin :0 auto ;
+  margin-top :20px ;
+  margin-bottom :-15px ;
+  border-radius :5px ;
+  padding :5px ;
+  font-weight :900 ;
+  box-shadow :-3px -3px 4px 2px #fff,
+  3px 3px 4px 1px #cbcbcb ;
+  width :242px ;
+}
+#gameContainer h4{
+  margin :0 auto ;
+  margin-top :-15px ;
+  border-radius :5px ;
+  padding :5px ;
+  font-weight :900 ;
+  width :240px ;
+}
+button {
+  padding :20px 10px ;
+  margin :20px ;
+  border :none ;    
+  border-radius :50px ; 
+  box-shadow :-3px -3px 4px 2px #fff,
+  3px 3px 4px 1px #cbcbcb ;
+  font-weight :900 ;
+}
+.winning-cell {
+  background-color: #a4ff00 ;
+  border :1px solid silvef;
+}
